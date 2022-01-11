@@ -1,3 +1,7 @@
-pip install -r requirements.txt
+from setuptools import setup
+from requirements import r
 
-python3 -m pip install "selenium"
+setup(
+    name='selenium',
+    version='4.0',
+    **r.dependencies)
