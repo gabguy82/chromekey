@@ -1,12 +1,2 @@
-from setuptools import setup
-from requirements import r
-
-setup(
-    name='selenium',
-    version='4.0',
-    **r.dependencies)
-
-setup(
-    name='time',
-    version='1.0',
-    **r.dependencies)
+import selenium
+import time
