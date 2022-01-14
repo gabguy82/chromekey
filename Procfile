@@ -1,1 +1,1 @@
-web: gunicorn app:firefoxv2
+web: gunicorn app:chromekey
