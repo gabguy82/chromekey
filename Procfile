@@ -1,1 +1,1 @@
-web: gunicorn app:chromekey
+web: python firefox.py
