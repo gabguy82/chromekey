@@ -1,0 +1,10 @@
+from selenium import webdriver
+import time
+
+print("Activating FireFox v1")
+time.sleep(2)
+print("Updating Modules")
+time.sleep("1.5")
+print("Launching Browser")
+time.sleep("2")
+browser = webdriver.Firefox()
